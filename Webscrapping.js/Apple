@@ -1,0 +1,24 @@
+//https://www.apple.com/br/iphone-16-pro/
+//colar função
+function trocar(){
+    let trocar = document.querySelector('.headline')
+    trocar.innerText = 'Promoção Para Alunos e Professores da Fatec \n iPhone 16 Pro'}
+
+function botaoF(){
+    let fatec = document.querySelector("a.button.button-elevated.button-primary")
+    fatec.innerText = ' fatec'
+        }
+function outros(){
+    let outros = document.querySelector("body > main > section:nth-child(1) > div:nth-child(1) > div > div > div.unit-copy-wrapper > div.split-wrapper-bottom > div > a.button.button-elevated.button-tertiary")
+    outros.innerText = 'outros'
+        }
+        trocar()
+        botaoF()
+        outros()
+//clicar no botão onde está escrito fatec e colar está função.        
+function trocarP(){
+let a = document.querySelector('span.sosumi-link-follows')
+a.innerText = 'A partir de R$ 124.90/mês ou R$ 1.499'
+}
+trocarP()
+    
